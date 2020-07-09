@@ -1,3 +1,3 @@
-# kollegen
-Mein fuerst projekt :D
-PT
+# Atividades SENAI
+Minhas atividades e trabalhos em grupo :D
+
