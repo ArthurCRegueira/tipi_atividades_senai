@@ -6,6 +6,7 @@ inicio
       Enquanto (enqu <> "n") faca
          Escreva("Digite o nome do aluno: ")
          Leia(nome)
+         
          Escreval("")
          Escreva("Digite a nota 1 do aluno ",nome,": ")
          Leia(mota1)

@@ -1,18 +1,19 @@
-algoritmo "SomaNuumeros √çmpares"
+
+algoritmo "SomaNuumeros Õmpares"
 Var
   n1, qt, nimpar, npar: Inteiro
 inicio
 nimpar<-1
   Enquanto qt < 6 Faca
-    Escreva("Digite um N√∫mero: ")
+    Escreva("Digite um N˙mero: ")
     Leia(n1)
     Se n1%2<>0 entao
       nimpar <-(nimpar*n1)  senao
       npar   <-(npar + n1)
     FimSe
     qt <- (qt+1)
-  FimEnquanto
-  Escreva(nimpar)
-  Escreval("")
-  Escreval(npar)
+    FimEnquanto
+    Escreva(nimpar)
+    Escreval("")
+    Escreval(npar)
 FimAlgoritmo
