@@ -15,9 +15,6 @@ Inicio
     Escreva("Digite outro lado: ")
     Leia(l2)
     Escreval("")
-    Se l2 = 0 Entao
-      Escreval("Entrada inválida")
-      Senao
       a <- l1*l2
       Escreval("A área dele é ",a)
       Escreva("Deseja continuar? s/n: ")

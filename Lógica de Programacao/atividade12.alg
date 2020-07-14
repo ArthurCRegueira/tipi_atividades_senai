@@ -1,15 +1,12 @@
-algoritmo "Repetições"
+algoritmo"RepetiÃ§Ãµes"
 var
-  n1, n2, contado : Inteiro
+  n1, n2 : Inteiro
 Inicio
-  n2 <- 1
-  Escreva("Digite um número inteiro e pesitivo:")
+  n2 <- 0
+  Escreva("Digite um nÃºmero inteiro e pesitivo:")
   Leia(n1)
   EscrevaL("")
   Enquanto contado <> n1 faca
     n2<-n2+n2
-    contado <- contado +1
     Escreva(n2)
-  FimEnquanto
 FimAlgoritmo
-
