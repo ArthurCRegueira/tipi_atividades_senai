@@ -18,4 +18,4 @@ npar <-0
   Escreval("")
   Escreval(npar)
 FimAlgoritmo
-//tira print logo   DND Mando onde?    ok
+
