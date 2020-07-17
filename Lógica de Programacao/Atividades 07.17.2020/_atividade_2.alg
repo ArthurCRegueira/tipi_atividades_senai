@@ -1,12 +1,16 @@
-algoritmo "Mimeï¿½grafo"
-// Funï¿½ï¿½o :        Copiar vetor A para Vetor B   e inverte
+algoritmo "Mimeógrafo"
+// Função :        Copiar vetor A para Vetor B   e inverte
 // Autor :        Arthur Candido Regueira de Miranda
 // Data :         17/07/2020
+var
+      gabriel : vetor [1..5] de inteiro
+      rafael  : vetor [1..5] de inteiro
+      negoNey :                 inteiro
       jubiscleison:             inteiro
 inicio
       Para negoNey de 1 ate 5 faca
            Escreval("Vetor 1")
-           Escreva("Digite o valor da posiï¿½ï¿½o", negoNey,": ")
+           Escreva("Digite o valor da posição", negoNey,": ")
            gabriel[negoNey] <- rand(inteiro 100) //Leia (gabriel[negoNey])
            LimpaTela
       FimPara
