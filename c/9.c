@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <ctype.h>
-
 int main(){
     setlocale(LC_ALL,"portuguse_Brasil");
     float n1, n2, n3, n4, media = 0;
@@ -20,13 +18,13 @@ int main(){
     scanf("%f", &n4);
     printf("\n");
     media = (n1+n2+n3+n4)/4;
-    printf ("A média foi %f", media," portanto");
-    if (media >=1){
-        system("color 09");
-        printf(" o aluno foi aprovado!");
+    system("clear");
+    printf("A média foi %f", media);
+    printf(" portanto ");
+    if(media >=6){
+        printf(" o aluno foi aprovado!\n");
     }else{
-        system("color 12");
-        printf("o aluno foi Reprovado!");
+        printf("o aluno foi reprovado!\n");
     }
     return 0;
 }
