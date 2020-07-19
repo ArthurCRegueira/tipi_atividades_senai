@@ -1,32 +1,40 @@
 // _Arthur_Candido _Regueira de_Miranda
 // 07/19/2020
 /*              Versão VisuALG
-agoritmo "Calculadora"
+    agoritmo "Calculadora"
+        
+    var 
+        n1, n2, resultado   : Real
+        opc, cotc            : Inteiro   
+    Inicio
     
- var 
-    n1, n2, resultado   : Real
-    opc, cotc            : Inteiro   
-Inicio
-  
-    Enquanto (cotc <> 0)
-      Escreval("00 para sair")
-    Escreval("01 para somar")
-    Escreval("02 para ")
-    Escreval("03 para")
-    Escreval("04 para")
-        Escolha (opc)
-            Caso 1
-                resultado <- n1 + n2
-                Escreval("O resultado da soma é ", resultado)
-            Caso 2
-                resultado <- n1-n2
-                Escreval("O resultado da subtração é ", resultado)
-            
-        FimEscolha
-    FimEnquanto
-FimAlgoritmo
-
-
+        Enquanto (cotc <> 0)
+        Escreval("00 para sair")
+        Escreval("01 para somar")
+        Escreval("02 para ")
+        Escreval("03 para")
+        Escreval("04 para")
+            Escolha (opc)
+                Caso 1
+                    resultado <- n1 + n2
+                    Escreval("O resultado da soma é ", resultado)
+                Caso 2
+                    resultado <- n1-n2
+                    Escreval("O resultado da subtração é ", resultado)
+                Caso 3
+                    resultado <- n1*n2
+                    Escreval("O resultado da multiplicação é ", resultado)
+                Caso 4
+                    resultado  <- n1/n2
+                    Escreval("O resultado da divisão é", resultado)
+            FimEscolha
+            Escreval("Deseja continuar? s/n")
+            Leia(cotc)
+            Se cotc = "n" faca
+             opc <- 0
+            FimSe
+        FimEnquanto
+    FimAlgoritmo
 
 */
 #include <stdio.h>  // Biblioteca padrão do c
@@ -71,11 +79,10 @@ int main()
             case 4:
                 resultado = n1/n2;
                 printf("O resultado da divisão é %f", resultado);
-            default:
-                printf("\nEntrada inválida");
-                
+                break;     
         }
-
+        printf("Deseja continuar?")
+        
     }
     return 0;
- }
+}
