@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Czão",
+            "name": "GEB Community",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
