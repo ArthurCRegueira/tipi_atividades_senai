@@ -47,6 +47,7 @@ int main()
     float n1, n2, resultado;
     int opc;
     setlocale(LC_ALL,"portuguse_Brasil");
+    // O certo seria usar a expressão DO- While porém não entendi direito, enfim
     while (opc != 0)
     {
         printf("Onde vamos?\n\n");
@@ -81,8 +82,11 @@ int main()
                 printf("O resultado da divisão é %f", resultado);
                 break;     
         }
-        printf("Deseja continuar?")
-        
+        printf("Deseja continuar? s/n");
+        char opt = getchar(); // Uma utilidade para ctype.h
+        if (opt == 'n'){
+            opc = 0;
+        }
     }
     return 0;
 }
