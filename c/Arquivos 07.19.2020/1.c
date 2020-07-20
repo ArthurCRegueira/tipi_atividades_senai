@@ -1,5 +1,9 @@
-algoritmo "Mimeógrafo"
-// Função :        Copiar vetor A para Vetor B   e inverte
+// Arthur Candido Regueira de Miranda
+// Escola SESI SENAI Carlos Gido FerrÃ¡rio LÃ´bo
+// 07.19.2020 - arthur.regueira@aol.com 
+// CRIE UM ALGORITMO QUE SOME OS NÃšMEROS DE UM VETOR
+/*algoritmo "Mimeï¿½grafo"
+// Funï¿½ï¿½o :        Copiar vetor A para Vetor B   e soma
 // Autor :        Arthur Candido Regueira de Miranda
 // Data :         17/07/2020
 var
@@ -10,7 +14,7 @@ var
 inicio
       Para negoNey de 1 ate 5 faca
            Escreval("Vetor 1")
-           Escreva("Digite o valor da posição", negoNey,": ")
+           Escreva("Digite o valor da posiÃ§Ã£o", negoNey,": ")
            Leia (gabriel[negoNey])
            LimpaTela
       FimPara
@@ -30,3 +34,15 @@ inicio
       FimPara
       Escreva(soma)
 fimalgoritmo
+*/
+// Logo em C pq sim
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <ctype.h>
+
+int main(){
+    setlocale(LC_ALL,"portuguse_Brasil");
+    
+    return 0;
+}

@@ -1,5 +1,5 @@
-algoritmo "semnome"
-// Função :
+algoritmo "questao1"
+// Função : Somar números de um vetor
 // Autor :  Arthur Candido Regueira de Miranda
 // Data : 17/7/2020
 // Seção de Declarações var

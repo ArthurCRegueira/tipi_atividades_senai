@@ -11,7 +11,7 @@ inicio
       Para negoNey de 1 ate 5 faca
            Escreval("Vetor 1")
            Escreva("Digite o valor da posição", negoNey,": ")
-           gabriel[negoNey] <- rand(inteiro 100) //Leia (gabriel[negoNey])
+           gabriel[negoNey] <-  (gabriel[negoNey])
            LimpaTela
       FimPara
       LimpaTela

@@ -1,6 +1,6 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Cópia Reversa"
+// Função : Mostrar na ordem inversa s números digitados
+// Autor : O frufru é meu.
 // Data : 17/07/2020
 // Seção de Declarações 
 var

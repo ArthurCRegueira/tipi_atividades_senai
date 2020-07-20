@@ -1,6 +1,6 @@
 
-algoritmo "Mime?grafo"
-// Fun??o :        Copiar vetor A para Vetor B
+algoritmo "Verificador Par ou impar"
+// Fun??o :       Verificar se é par ou ímpar
 // Autor :        Arthur Candido Regueira de Miranda
 // Data :         17/07/2020
 var
