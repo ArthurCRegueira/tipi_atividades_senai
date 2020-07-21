@@ -1,8 +1,8 @@
-algoritmo "VeriMatriz"
-// Função :  Verifica se um número está na Matriz
-// Autor :
+algoritmo "MediaPar"
+// FunÃ§Ã£o :  Verifica se um nÃºmero estÃ¡ na Matriz
+// Autor :     Arthur C R Miranda
 // Data : 21/07/2020
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
      matriz : vetor[1..3,1..2] de inteiro
      valPar : vetor[1..3,1..2] de inteiro
@@ -11,7 +11,7 @@ var
 inicio
    Para i de 1 ate 3 faca
         Para a de 1 ate 3 faca
-             Escreva ("entre com um número: ")
+             Escreva ("entre com um nÃºmero: ")
              leia(matriz[i,a])
              LimpaTela
         FimPara
@@ -26,11 +26,11 @@ inicio
                 medPar <- (medPar) + valPar[i,a])
                 valPar[i,a] <- matriz[i,a]
                 totPar <- totPar+1
-                Escreval("O número ", valPar[i,a]," é par")
+                Escreval("O nÃºmero ", valPar[i,a]," Ã© par")
              FimSe
         FimPara
    FimPara
    medpar <- (medPar/totPar )
-   Escreval("Média dos números pares digitados: ", medPar)
+   Escreval("MÃ©dia dos nÃºmeros pares digitados: ", medPar)
 fimalgoritmo
 
