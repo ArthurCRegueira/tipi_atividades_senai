@@ -1,11 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
- void swap(int *a, int *b){ 
-      int temp = *a; 
-    *a = *b; 
-    *b = temp; 
+int a, b;
+int v, n;
+ void swap(){ 
+      int temp = a; 
+    a = b; 
+    b = temp; 
  } 
-void bubbleSort(int *v, int n){ 
+void bubbleSort(){ 
     if (n < 1)return; 
      for (int i=0; i<n; i++) 
          if (v[i] > v[i+1])  // Função interessante
@@ -13,7 +15,7 @@ void bubbleSort(int *v, int n){
      bubbleSort(v, n-1); 
 } 
  
-int main(){
+int main(){ 
      int tam,i,*v;
      scanf("%d",&tam);
      v=(int*)malloc(tam*sizeof(int));

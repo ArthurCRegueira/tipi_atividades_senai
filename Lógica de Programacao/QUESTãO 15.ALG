@@ -5,7 +5,7 @@ algoritmo "Questão 15"
 // Seção de Declarações
 var
     matrizAr: vetor[0..10,0..10] de inteiro
-    matriOr : vetor[0..10,0..10] de inteiro
+    matrizOr :                       inteiro
     xerox   : vetor[0..10,0..10] de inteiro
     a, b, g: inteiro
 inicio
@@ -26,8 +26,12 @@ inicio
   para g de 0 ate 200 faca
       Para a de 0 ate 9 Faca
            Para b de 0 ate 9 faca
-                Se matrizAr[a,b] < matrizAr [a+1,b+1]  Entao
-                   matrizAr[a,b] <- matrizAr [a+1,b+1]
+                Se matrizAr[a,b] > 0    Entao
+                   Se matrizAr[a,b] < matrizAr [a+1,b+1]  Entao
+                      matrizOr <- matrizAr[a,b]
+                      matrizAr[a,b] <- matrizAr[a+1, b+1]
+                      matrizAr[a,b] <- matrizOr
+                   FimSe
                 FimSe
            FimPara
       FimPara
