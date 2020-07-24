@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include <locale.h>
 #include <ctype.h>
 #include <string.h>
-#include <conio.h> 
+#define w 10
+//#include <conio.h> 
 // By Arthur Candido Regueira de Miranda
 int main(){
     setlocale(LC_ALL,"portuguse_Brasil");
-    int input;
+    int input, count = 10;
     float time, distance, acceleration;
     float result, velocit, iniVelocit, finVelocit;
-    char userresponse;
+    char userresponse  = 0;
         do
         {
-            userresponse = "s";
             printf("\n\t\tCalculadora SuperTunada Física 1.0");
             printf("\n");
             printf("Digite uma operação: ");
@@ -33,7 +34,7 @@ int main(){
             switch (input)
             {
             case 1:
-                while (userresponse != 'n')
+                while (!(userresponse == 'n'))
                 {
                     printf("\t\t\nTu escolheu calcular a velocidade média\n\n");
                     printf("Digite o tempo em segundos: ");
@@ -44,18 +45,12 @@ int main(){
                     printf("\nO resultado é %.2f m/s", velocit);
                     printf("\n Deseja continuar? (s/n) ");
                     scanf("%c", &userresponse);
-                    if (userresponse != 'n')
-                    {
-                        system("clear");
-                    }else
-                    {
-                        input = 0;
-                    }    
+                    break;
                 }
                 break;
             case 2:
 
-                while (userresponse != "n")
+                while (userresponse != 'n')
                 {
                     printf("\t\t\n Tu escolheu calcular a aceleração média");
                     printf("\nDigite a velocidade: ");
@@ -64,8 +59,39 @@ int main(){
                     scanf("%f", &time);
                     acceleration = velocit/time;
                     printf("O resulta é %.2f m/s²", acceleration);
+                    printf("\n Deseja continuar? (s/n) ");
+                    scanf("%c", &userresponse);
+                    if (userresponse != 'n')
+                    {
+                        system("clear");
+                    }else
+                    {
+                        input = 0;
+                    }   
                 }
-                
+                break;
+            case 3:
+                do
+                {
+                    printf("\t\t\n Tu escolheu calcular a posição inicial");
+                    printf("\nDigite a velocidade: ");
+                    scanf("%f", &velocit);
+                    printf("\nDigite tempo em segundos: ");
+                    scanf("%f", &time);
+                    acceleration = velocit/time;
+                    printf("O resulta é %.2f m/s²", acceleration);
+                    printf("\n Deseja continuar? (s/n) ");
+                    scanf("%c", &userresponse);
+                    if (userresponse != 'n')
+                    {
+                        system("clear");
+                    }else
+                    {
+                        input = 0;
+                    }   
+                } while (input != 0);
+                break;
+            case 4:
                 break;
             default:
                 break;
