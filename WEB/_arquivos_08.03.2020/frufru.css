@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+ body{
+    background-color: #ff0030;
+ }
+
+ h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+}
+
+p.yellow{
+    color: yellow;
+    font-weight: bolder;
+}
+
+p.red{
+    color: red;
+    font-weight: bolder;
+
+}
+
+p.green{
+    color: green;
+    font-weight: bolder;
+
+}
+
+ div.exemplo {
+    padding: 8px;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background-color: #f8f8f8;
+    margin: 55px auto 75px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+    word-wrap: break-word;
+}
