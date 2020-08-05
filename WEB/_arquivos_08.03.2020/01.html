@@ -13,13 +13,16 @@
                     var semaforo = prompt("Digite um cor: ");
                     if(semaforo == "verde"){
                         document.write ("<p class='green'> Prossiga </p>");
+                        console.log("Prossiga")
                     } else if(semaforo == "vermelho"){
                         document.write ("<p class='red'> PARE </p>");
+                        console.log("Pare");
                     } else {
                         document.write ("<p class='yellow'>ATENÇÃO</p>");
+                        console.log("Atenção!");
                     }
                 </script>
-                
+
             </div>
             <h2>Exemplo 02</h2>
             <div class=exemplo>
@@ -27,9 +30,35 @@
                     var nome = prompt("Digite seu nome de usuário: "); 
                     var senha = prompt("Digite sua senha: "); 
                     if (nome == "Arthur" && senha=="1234"){
-                        document.write("<p class='green'>Usuário Logado com Sucesso!</p>");
+                        document.write("<p class='green'>Usuário logado com Sucesso!</p>");
+                        console.log("Logado com sucesso!");
                     }else{
                         document.write("<p class='red'>ERRO!</p>");
+                        console.log("Erro");
+                    }
+                </script>
+            </div>
+            <h2>Exemplo 03</h2>
+            <div class="exemplo">
+                <script>
+                    /*var altura = prompt("Digite sua Altura");
+                    var peso = prompt("Digite seu peso: ");*/
+                    var imc = 9;// Era, Gave Sim //altura / Math.pow(peso, 2);
+                    if(imc < 20.7){
+                        console.log("Muito magro");
+                        document.write("<p class='red'> Muito Magro!</p>");
+                    }else if(imc >= 20.7 && imc < 26.4  ){
+                        console.log("Tá normal");
+                        document.write("<p class='green'> tá normal</p>");
+                    }else if(imc >= 26.4 && imc < 27.8){
+                        console.log("Um pouco acima do peso");
+                        document.write("<p class='yellow'> tá quase normal</p>");
+                    }else if(imc >= 27.8 && imc <31.1){
+                        console.log("Acima do peso");
+                        document.write("<p class='laranja'>Acima do peso</p>");
+                    }else{
+                        console.log("OBESO");
+                        document.write("<p class='red'>OBESO!</p>");
                     }
                 </script>
             </div>
