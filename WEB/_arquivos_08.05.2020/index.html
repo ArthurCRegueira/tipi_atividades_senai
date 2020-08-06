@@ -32,37 +32,37 @@
                  }
             </code>
         </div>
-            <h2>Exercício 02</h2>
-            <div class="exemplo">
-                <header id="cont">
-                    Crie um programa que leia 10 números e mostre a soma.<br/>
-                    Usando  do{}while();
-                 </header>
-                <script>
-                    var noel = 1;
-                    var soma = 1;
-                    do{
-                        var numeros = prompt("digite um número: ");
-                        soma += parseFloat(numeros);
-                        noel += 1; 
-                    }while(noel < 10);
-                    document.write("<p class='red'>A soma é <br/>", soma,"</p>");
-                </script>
-                <code>
-                    var noel = 1;<br/>
-                    var soma = 1;<br/>
-                    do{<br/>
-                        var numeros = prompt("digite um número: ");<br/>
-                         soma += parseFloat(numeros);<br/>
-                         noel += 1; <br/>
-                    }while(noel < 10);<br/>
-                    document.write("A soma é ", soma);
-                </code>
-            </div>
+        <h2>Exercício 02</h2>
+        <div class="exemplo">
+            <header id="cont">
+                Crie um programa que leia 10 números e mostre a soma.<br/>
+                Usando  do{}while();
+            </header>
+            <script>
+                var noel = 1;
+                var soma = 1;
+                do{
+                    var numeros = prompt("digite um número: ");
+                    soma += parseFloat(numeros);
+                    noel += 1; 
+                }while(noel < 10);
+                document.write("<p class='red'>A soma é <br/>", soma,"</p>");
+            </script>
+            <code>
+                var noel = 1;<br/>
+                var soma = 1;<br/>
+                do{<br/>
+                    &nbsp;var numeros = prompt("digite um número: ");<br/>
+                    &nbsp;soma += parseFloat(numeros);<br/>
+                    &nbsp;noel += 1; <br/>
+                }while(noel < 10);<br/>
+                document.write("A soma é ", soma);
+            </code>
+        </div>
         <h2>Exercício 03</h2>
         <div class="exemplo">
             <header id="cont">
-                Crie um progrma que leia 5 números e mostre o maior.<br/>
+                Crie um programa que leia 5 números e mostre o maior.<br/>
                 Usando For(){}
             </header >
             <script>
@@ -76,10 +76,46 @@
             <code>
                 var maior = prompt("Digite um número para comparar");<br/>
                 for (let index = 0; index < 4; index++) {<br/>
-                    input = prompt("Digite um número para comparar: ")<br/>
-                    maior = input>maior? input : maior;<br/>
+                    &nbsp;    input = prompt("Digite um número para comparar: ")<br/>
+                    &nbsp;    maior = input>maior? input : maior;<br/>
                 }
                 document.write( O maior número é" , maior);<br/>
+            </code>
+        </div>
+        <h2>Exercício 04</h2>
+        <div class="exemplo">
+            <header id="cont">
+                Crie um programa que retorne as seguintes mensagens: <br/>
+                <span style="text-align: justify;">ADMIN: Escreve "Feliz dia dos Pais Senhor!"<br/>
+                GER: Escreve "Feliz dia dos Pais Chefe!"<br/>
+                default: Escreve "Feliz dia dos Pais"</span>
+            </header>
+            <script>
+                var cargo = prompt("Digite o seu Cargo (ADMIN, GER, OUTRO)");
+                switch(cargo){
+                    case "ADMIN":
+                        document.write("<p>Feliz dia dos Pais Senhor!</p>");
+                        break;
+                    case "GER":
+                        document.write("<p>Feliz dia dos Pais Chefe!</p>")
+                        break;
+                    default: 
+                        document.write("<p>Feliz dia dos pais!</p>")
+                        break;
+                }
+            </script>
+            <code>
+                var cargo = prompt("Digite o seu Cargo (ADMIN, GER, OUTRO)");<br/>
+                switch(cargo){<br/>
+                    case "ADMIN":
+                    &nbsp;   document.write("Feliz dia dos Pais Senhor!");<br>
+                    &nbsp;   break;<br>
+                    case "GER":<br>
+                    &nbsp;   document.write("Feliz dia dos Pais Chefe!")<br/>
+                    &nbsp;   break;<br/>
+                    default: <br/>
+                    &nbsp;    document.write("Feliz dia dos pais")
+                }
             </code>
         </div>
     </body>
