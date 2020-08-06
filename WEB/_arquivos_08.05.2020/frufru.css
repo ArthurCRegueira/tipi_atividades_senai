@@ -43,7 +43,7 @@ p.green{
     padding: 8px;
     position: relative;
     width: 700px;
-    height: 500px;
+    height: auto;
     background-color: #f8f8f8;
     margin: 55px auto 75px auto;
     border: 1px solid #ccc;
@@ -66,13 +66,13 @@ header#cont{
     box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
     word-wrap: break-word;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size:  15pt;
     color: white;
     text-align: center;
 }
 
 code{
-    background-color: #adadad;
+    background-color: #c2c2c2;
     position: relative;
     display: block;
     border: 1px solid black;
@@ -83,5 +83,6 @@ code{
     margin-right: auto;
     box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
     font-family: courier, monospace;
+    font-size: 12pt;
     padding: 3px;
 }

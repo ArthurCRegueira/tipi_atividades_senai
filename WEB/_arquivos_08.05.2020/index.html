@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>05 Agosto sem Gosto</title>
+        <link rel="stylesheet" href="frufru.css"/>
+    </head>
+    <body>
+        <h2>Exercício 01</h2>
+        <div class="exemplo">
+            <header id="cont">
+               Crie um programa que leia 10 números e mostre a soma.<br/>
+               Usando  while(){}
+            </header>
+           <script style="font-size: 40px;">
+                var noel = 1;
+                var soma = 1;
+                while(noel < 10){
+                    var numeros = prompt("digite um número: ");
+                     soma += parseFloat(numeros);
+                     noel += 1; 
+                }
+                document.write("<p class='red'>A soma é <br/>", soma,"</p>");
+            </script>
+            <code>
+                var noel = 1;<br/>
+                var soma = 1;<br/>
+                while(noel < 10){<br/>
+                var numeros = prompt("digite um número: ");<br/>
+                 soma += parseFloat(numeros);<br/>
+                 noel += 1;<br/>
+                 }
+            </code>
+        </div>
+            <h2>Exercício 02</h2>
+            <div class="exemplo">
+                <header id="cont">
+                    Crie um programa que leia 10 números e mostre a soma.<br/>
+                    Usando  do{}while();
+                 </header>
+                <script>
+                    var noel = 1;
+                    var soma = 1;
+                    do{
+                        var numeros = prompt("digite um número: ");
+                        soma += parseFloat(numeros);
+                        noel += 1; 
+                    }while(noel < 10);
+                    document.write("<p class='red'>A soma é <br/>", soma,"</p>");
+                </script>
+                <code>
+                    var noel = 1;<br/>
+                    var soma = 1;<br/>
+                    do{<br/>
+                        var numeros = prompt("digite um número: ");<br/>
+                         soma += parseFloat(numeros);<br/>
+                         noel += 1; <br/>
+                    }while(noel < 10);<br/>
+                    document.write("A soma é ", soma);
+                </code>
+            </div>
+        <h2>Exercício 03</h2>
+        <div class="exemplo">
+            <header id="cont">
+                Crie um progrma que leia 5 números e mostre o maior.<br/>
+                Usando For(){}
+            </header >
+            <script>
+                var maior = prompt("Digite um número para comparar");
+                for (let index = 0; index < 4; index++) {
+                    input = prompt("Digite um número para comparar: ")
+                    maior = input>maior? input : maior;
+                }
+                document.write("<p> O maior número foi <br/></p><p class='green'>", maior, "</p>");
+            </script>
+            <code>
+                var maior = prompt("Digite um número para comparar");<br/>
+                for (let index = 0; index < 4; index++) {<br/>
+                    input = prompt("Digite um número para comparar: ")<br/>
+                    maior = input>maior? input : maior;<br/>
+                }
+                document.write( O maior número é" , maior);<br/>
+            </code>
+        </div>
+    </body>
+</html>
