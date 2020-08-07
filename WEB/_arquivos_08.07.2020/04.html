@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lan="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="frufru.css"/>
+        <title>04 ATV Agosto sem Gosto</title>
+    </head>
+    <body>
+        <h2>Exercício 04</h2>
+        <div class="exemplo">
+            <header id="cont">
+                Cada espectador de um cinema respondeu a um questionário no qual constava sua idade e a sua opinião
+                em relação ao filme: <br/> ótimo - 3, bom - 2, regular -1.<br/>
+                Faça um programa que receba a idade e a opinião de 15 espectadores, calcule e imprima:<br/>
+                &nbsp;&nbsp;&nbsp;• a média das idades das pessoas que responderam ótimo;<br/>
+                &nbsp;&nbsp;&nbsp;• a quantidade de pessoas que responderam regular;<br/>
+                &nbsp;&nbsp;&nbsp;• a porcentagem de pessoas que responderam bom entre todos os espectadores analisados.
+            </header>
+            <script>
+                var idade = 0;
+                var totBom = 0; 
+                var totOtm = 0;
+                var idOtm = 0; 
+                var totReg = 0;
+                var total = 0;
+                var resposta = 0;
+                var medIdOtm = 0;
+                var porBom = 0;
+                for (let index = 0; index <15; index++) {
+                    idade = parseInt(prompt("Digite a idade: "));
+                    resposta = parseInt(prompt("Digite 3 para Ótimo, 2 para Bom e 1 para Regular"));
+                    total++;
+                    switch (resposta) {
+                        case 1:
+                            totReg++;
+                            break;
+                        case 2:
+                            totBom++;
+                            break;
+                        case 3:
+                            idOtm += idade;
+                            totOtm++;
+                            break;
+                    }
+                }
+                medIdOtm = (idOtm / totOtm);
+                porBom = (totBom*100)/total;
+                document.write("<p class='red'>", totReg, "</p><p> Pessoas responderam Regular</p>");
+                document.write("<p>A média da idade das pessoas que responderam ótimo é:  <p class='green'>", medIdOtm,"</p>");
+                document.write("<p>A porcentagem das pessoas que responderam bom é:  <p class='green'>", porBom,"%</p>");
+            </script>
+        </div>
+    </body>
+</html>
