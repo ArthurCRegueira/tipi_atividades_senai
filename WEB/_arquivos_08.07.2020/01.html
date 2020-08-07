@@ -1,0 +1,32 @@
+<!DOCTYPE html>        
+<html lang="pt-BR">  
+    <head>
+        <meta charset="UTF-8"/>
+        <title>01 ATV Agosto sem Gosto</title>
+        <link rel="stylesheet" type="css" href="frufru.css"/>
+    </head>   
+    <body>
+        <h2>Exercício 01</h2>
+        <div class="exemplo">
+            <header id="cont">
+                Crie um programa que leia 5 números e mostre o maior.<br/>
+            </header >
+            <script>
+                var maior = prompt("Digite um número para comparar");
+                for (let index = 0; index < 4; index++) {
+                    input = prompt("Digite um número para comparar: ")
+                    maior = input>maior? input : maior;
+                }
+                document.write("<p> O maior número foi <br/></p><p class='green'>", maior, "</p>");
+            </script>
+            <code>
+                var maior = prompt("Digite um número para comparar");<br/>
+                for (let index = 0; index < 4; index++) {<br/>
+                    &nbsp;    input = prompt("Digite um número para comparar: ")<br/>
+                    &nbsp;    maior = input>maior? input : maior;<br/>
+                }
+                document.write( O maior número é" , maior);<br/>
+            </code>
+        </div>
+    </body>   
+</html>
