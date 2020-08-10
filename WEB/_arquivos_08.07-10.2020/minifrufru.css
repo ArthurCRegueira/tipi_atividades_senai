@@ -6,9 +6,8 @@
     arthur.regueira39@gmail.com
 */
 body{
-    background-color: #ccc;
+    background-color: #b3ecec; 
     font-family: Arial, sans-serif;
-    background-color: #dddddd;
     color: black;
 }
 
@@ -52,7 +51,7 @@ div.x{
     width: auto;
     height: auto;
     background-color: #f8f8f8;
-    margin: auto auto auto auto;
+    margin: auto min="19";
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
@@ -91,7 +90,7 @@ code{
     box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
     font-family: courier, monospace;
     font-size: 12pt;
-    padding: 3px;
+    padding: 7pt;
 }
 
 section#corpo{

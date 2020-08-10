@@ -48,23 +48,23 @@
                     var cHomem;<br/>
                     var altura;
                     var medMulher;
-                    var altMulher;
+                    var altMulher;<br/>
                     for (let index = 1; index &lt 3; index++){<br/>
-                        altura = parseInt(prompt("Informe a sua altura(sem ponto)"));<br/>
-                        sexo =prompt("Digite o sexo M/F");<br/>
-                        if(index=1){<br/>
-                            menor = altura;<br/>
-                            maior = altura;<br/>
-                        } if(altura > maior){<br/>
-                            maior = altura;<br/>
-                        }if(menor > altura){<br/>
-                            menor = altura;<br/>
-                        }if(sexo == "f" || sexo == "F"){<br/>
-                            cMulher++;<br/>
-                            altMulher+=altura;<br/>
-                        } else {<br/>
-                            cHomem++;<br/>
-                        }<br/>
+                        &nbsp;altura = parseInt(prompt("Informe a sua altura(sem ponto)"));<br/>
+                        &nbsp;sexo =prompt("Digite o sexo M/F");<br/>
+                        &nbsp;if(index=1){<br/>
+                        &nbsp;&nbsp;menor = altura;<br/>
+                        &nbsp;&nbsp;maior = altura;<br/>
+                        &nbsp;} if(altura > maior){<br/>
+                        &nbsp;&nbsp;maior = altura;<br/>
+                        &nbsp;}if(menor > altura){<br/>
+                        &nbsp;&nbsp;menor = altura;<br/>
+                        &nbsp;}if(sexo == "f" || sexo == "F"){<br/>
+                        &nbsp;&nbsp;cMulher++;<br/>
+                        &nbsp;&nbsp;altMulher+=altura;<br/>
+                        &nbsp;} else {<br/>
+                        &nbsp;&nbsp;cHomem++;<br/>
+                        &nbsp;}<br/>
                     }<br/>
                     mediMulher = altMulher/cMulher;<br/>
                     document.write("A maior altura é: ", maior);<br/> 
@@ -174,7 +174,7 @@
                 </ul>
             </header>
             <code>
-                for (let index = 0; index < 10; index++) {<br/>
+                for (let index = 0; index &lt; 10; index++) {<br/>
                  &nbsp;   var totMulher = 0;<br/>
                  &nbsp;   var totHomem = 0;<br/>
                  &nbsp;   var pesoMulher = 0;<br/>
@@ -196,6 +196,87 @@
                 }
             </code>
             <button class="btn" onclick="eSesis();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 07</h2>
+        <div class="x">
+            <header id="cont">
+
+            </header>
+            <code></code>
+        </div>
+        <h2>Exercício 08</h2>
+        <div class="x">
+            <header id="cont">
+                Escreva um algoritmo que receba dois números reais e um código de seleção do usuário. Se o código digitado for 1, faça o algoritmo adicionar os dois números previamente digitados e mostrar o resultado; se o código de seleção for 2, os números deverão ser multiplicados; se o código de seleção for 3, o primeiro número deve ser dividido pelo segundo.
+            </header>
+            <code>
+                var num1 = parseFloat(prompt("Digite um número"));<br/>
+                var num2 = parseFloat(prompt("Digite outro númeroDigite outro número"));<br/>
+                var esc = parseInt(prompt("Digite 1 para soma 2 para mult 3 para div"));<br/>
+                var result = 0;<br/>
+                 switch(esc){<br/>
+                     case 1:<br/>
+                         result = num1 + num2;<br/>
+                         document.write("A soma é ", result);<br/>
+                         break;<br/>
+                     case 2:<br/>
+                         result = num1 * num2;<br/>
+                         document.write("A multiplicação é: ", result);<br/>
+                         break;<br/>
+                     case 3:<br/>
+                         result = num1 / num2;<br/>
+                         document.write("A divisão é: ", result);<br/>
+                         break;<br/>
+                 }<br/>
+            </code>
+            <button class="btn" onclick="eOito();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 09</h2>
+        <div class="x">
+            <header id="cont">
+                Faça um programa que recebe o salário de um colaborador e calcule reajuste segundo o seguinte critério, baseado no salário atual:
+                <ul>
+                    <li>Salários até R$ 1045,00 (incluindo): aumento de 20%</li>
+                    <li>Salários entre R$ 1045,00 e R$ 2000,00: aumento de 15%</li>
+                    <li>Salários entre R$ 2000,00 e R$ 3000,00: aumento de 10%</li>
+                    <li>Salários de R$ 3000,00 em diante: aumento de 5%.</li>
+                </ul>
+                Após o aumento ser calculado, deverá ser informado: o salário antes do reajuste; o percentual de aumento aplicado; o valor do  aumento; o novo salário, após o aumento.
+            </header>
+            <code>
+                var ipSal = parseFloat(prompt("Digite o salário atual do Funcionário: "));<br/>
+                var r = 0;<br/>
+                var nSal;<br/>
+                if(ipSal < 1045){<br/>
+                    r = .20<br/>
+                }else if( ipSal > 1045 ){<br/>
+                    r = .15<br/>
+                }else if(2000 > ipSal < 3000){<br/>
+                    r = .10<br/>
+                }else{<br/>
+                    r = .5<br/>
+                }<br/>
+                nSal = ipSal+(ipSal * r)<br/>
+                document.write("O reajuste será de ", (r*100),"% ou R$ ",(ipSal * r), "<br/>");
+                document.write("O novo salário do funcionário será: ", nSal,"<br/>");
+            </code>
+            <button class="btn" onclick="eNove();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 10</h2>
+        <div class="x">
+            <header id="cont">
+                Faça um programa que entre com cinco números e imprima o quadrado de cada número.
+            </header>
+            <code>
+                var num = [];<br/>
+                for (let index = 0; index &lt; 5; index++){<br/>
+                &nbsp;num[index] = parseFloat(prompt("Digite um número para Pow"))<br/>
+                }<br/>
+                for (let index = 0; index &lt; 5; index++){<br/>
+                &nbsp;document.write(num[index],"² = ", Math.pow(num[index],2),)<br/>
+                }<br/>
+            </code>
+            <button class="btn" onclick="eDez();" value="Executar">Executar</button>
         </div>
     </body>
 </html >

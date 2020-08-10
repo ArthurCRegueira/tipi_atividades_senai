@@ -24,15 +24,12 @@ acréscimo de 10% no total a ser pago. Se o parcelamento for em 5 vezes, o acré
 • total de homens;
 • total de mulheres;
 • média das idades dos homens;
-• média dos pesos das mulheres.
+• média dos pesos das mulheres. (OK!)
 
 7 - Escreva um algoritmo que mostre os números primos que estão entre o número 0 e o 200.
 
-8 - Escreva um algoritmo que receba dois números reais e um código de seleção do usuário. Se o código
-digitado for 1, faça o algoritmo adicionar os dois números previamente digitados e mostrar o resultado; se o
-código de seleção for 2, os números deverão ser multiplicados; se o código de seleção for 3, o primeiro número
-deve ser dividido pelo segundo.
-
+8 - Escreva um algoritmo que receba dois números reais e um código de seleção do usuário. Se o código digitado for 1, faça o algoritmo adicionar os dois números previamente digitados e mostrar o resultado; se o código de seleção for 2, os números deverão ser multiplicados; se o código de seleção for 3, o primeiro número deve ser dividido pelo segundo. (ok!)
+ 
 9 - Faça um programa que recebe o salário de um colaborador e calcule reajuste segundo o seguinte critério,
 baseado no salário atual:
 • Salários até R$ 1045,00 (incluindo): aumento de 20%
@@ -40,6 +37,6 @@ baseado no salário atual:
 • Salários entre R$ 2000,00 e R$ 3000,00: aumento de 10%
 • Salários de R$ 3000,00 em diante: aumento de 5%.
 Após o aumento ser calculado, deverá ser informado: o salário antes do reajuste; o percentual de aumento
-aplicado; o valor do aumento; o novo salário, após o aumento.
+aplicado; o valor do aumento; o novo salário, após o aumento. (OK!)
 
 10 - Faça um programa que entre com cinco números e imprima o quadrado de cada número.

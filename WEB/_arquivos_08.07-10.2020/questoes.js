@@ -1,30 +1,30 @@
 function eUm(){
-    var maior = prompt("Digite um número para comparar");
+    var maior = prompt("Digite um número para comparar"); 
     for (let index = 0; index < 4; index++) {
         input = prompt("Digite um número para comparar: ")
         maior = input>maior? input : maior;
     }
     document.write("<p> O maior número foi <br/></p><p class='green'>", maior, "</p>");
-    document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+    document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>");
 }
 
 function eDois(){
     var menor;
     var sexo;
     var maior;
-    var cMulher;
-    var cHomem;
-    var altura;
-    var medMulher;
-    var altMulher;
-    for (let index = 1; index < 3; index++){
+    var cMulher=0;
+    var cHomem =0;
+    var altura =0;
+    var medMulher =0;
+    var altMulher=0;
+    for (let index = 0; index < 3; index++){ 
         altura = parseInt(prompt("Informe a sua altura(sem ponto)"));
         sexo =prompt("Digite o sexo M/F");
-        if(index=1){
+        if(index==0){ 
             menor = altura;
-            maior = altura;
-        } if(altura > maior){
-            maior = altura;
+            maior = altura; 
+        }if(altura > maior){ 
+            maior = altura; 
         }if(menor > altura){
             menor = altura;
         }if(sexo == "f" || sexo == "F"){
@@ -34,11 +34,12 @@ function eDois(){
             cHomem++;
         }
     }
-    mediMulher = altMulher/cMulher;
-    document.write("A maior altura é: ", maior); 
-    document.write("A menor altura é: ", menor);
-    document.write("A média das mulheres é: ", medMulher);
-    document.write("O número de homens é: ", cHomem);
+    medMulher = altMulher/cMulher;
+    document.write("A maior altura é: ", maior,"<br/>"); 
+    document.write("A menor altura é: ", menor,"<br/>");
+    document.write("A média das mulheres é: ", medMulher,"<br/>");
+    document.write("O número de homens é: ", cHomem,"<br/>");
+    document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>");
 }
 
 function eTres(){
@@ -128,7 +129,67 @@ function eSeis() {
         }
     document.write("Total de homens: ", totHomem);
     document.write("Total de mulheres: ", totMulher);
-    document.write("Média dos pesos das mulheres: ", pesoMulher/totMulher, "kg");
-    document.write("Média Idade dos Homens: ", idadeHomem/totHomem," anos");
+    document.write("Média dos pesos das mulheres: ", pesoMulher/totMulher, "kg<br/>");
+    document.write("Média Idade dos Homens: ", idadeHomem/totHomem," anos<br/>");
+    document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+
     }
+}
+
+function eSete(){
+    
+}
+
+function eOito(){
+   var num1 = parseFloat(prompt("Digite um número"));
+   var num2 = parseFloat(prompt("Digite outro númeroDigite outro número"));
+   var esc = parseInt(prompt("Digite 1 para soma 2 para mult 3 para div"));
+   var result = 0;
+    switch(esc){
+        case 1:
+            result = num1 + num2;
+            document.write("A soma é ", result, "<br/>");
+            break;
+        case 2:
+            result = num1 * num2;
+            document.write("A multiplicação é: ", result,"<br/>");
+            break;
+        case 3:
+            result = num1 / num2;
+            document.write("A divisão é: ", result,"<br/>");
+            break;
+    }
+    document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+
+}
+
+function eNove(){
+    var ipSal = parseFloat(prompt("Digite o salário atual do Funcionário: "));
+    var r = 0;
+    var nSal;
+    if(ipSal < 1045){
+        r = .20
+    }else if( ipSal > 1045 ){
+        r = .15
+    }else if(2000 > ipSal < 3000){
+        r = .10
+    }else{
+        r = .5
+    }
+    nSal = ipSal+(ipSal * r)
+    document.write("O reajuste será de ", (r*100),"% ou R$ ",(ipSal * r), "<br/>");
+    document.write("O novo salário do funcionário será: ", nSal,"<br/>");
+    document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+
+}
+
+function eDez(){
+    var num = [];
+    for (let index = 0; index < 5; index++) {
+        num[index] = parseFloat(prompt("Digite um número para Pow"))
+    }
+    for (let index = 0; index < 5; index++) {
+        document.write(num[index],"² = ", Math.pow(num[index],2),"<br/>")
+    }
+    document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
 }
