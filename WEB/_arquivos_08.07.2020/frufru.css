@@ -4,6 +4,17 @@
     background-color: #ff0030;
  }
 
+span.lista{
+    text-align: left;
+    display: block;
+    position: relative;
+}
+
+ul{
+    margin-left: 40px;
+    display: block;
+}
+
  h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
@@ -42,10 +53,10 @@ p.green{
  div.exemplo {
     padding: 8px;
     position: relative;
-    width: 700px;
+    width: auto;
     height: auto;
     background-color: #f8f8f8;
-    margin: 55px auto 75px auto;
+    margin: auto auto auto auto;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);

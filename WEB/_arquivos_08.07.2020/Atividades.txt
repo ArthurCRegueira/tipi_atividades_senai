@@ -1,4 +1,5 @@
 1- Peça ao usuário para digitar 5 números em uma caixa de texto. Verifique qual é o maior número e exiba-o. (OK!)
+
 2 - Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas. Faça um programa que
 calcule e escreva:
     • a maior e a menor altura do grupo;
