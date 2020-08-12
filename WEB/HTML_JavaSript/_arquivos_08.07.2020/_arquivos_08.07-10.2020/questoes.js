@@ -136,8 +136,9 @@ function eSeis() {
     }
 }
 
+
 function eSete(){
-    
+    document.write("A implementar");
 }
 
 function eOito(){

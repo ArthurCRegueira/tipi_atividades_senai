@@ -38,7 +38,7 @@
         "name": "(gdb) Iniciar",
         "type": "cppdbg",
         "request": "launch",
-        "program": "${workspaceFolder}/a.out",
+        "program": "${workspaceFolder}/",
         "args": [],
         "stopAtEntry": false,
         "cwd": "${workspaceFolder}",

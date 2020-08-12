@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html  lang="pt-br">
+    <head>
+       
+        <head>
+        <meta charset="UTF-8"/>
+        <title> Atividade JS </title>
+        <script>
+            function eUm(){
+                var maior = prompt("Digite um número para comparar"); 
+                for (let index = 0; index < 4; index++) {
+                    input = prompt("Digite um número para comparar: ")
+                    maior = input>maior? input : maior;
+                }
+                document.write("<p> O maior número foi <br/></p><p class='green'>", maior, "</p>");
+                document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>");
+            }
+
+            function eDois(){
+                var menor;
+                var sexo;
+                var maior;
+                var cMulher=0;
+                var cHomem =0;
+                var altura =0;
+                var medMulher =0;
+                var altMulher=0;
+                for (let index = 0; index < 3; index++){ 
+                    altura = parseInt(prompt("Informe a sua altura(sem ponto)"));
+                    sexo =prompt("Digite o sexo M/F");
+                    if(index==0){ 
+                        menor = altura;
+                        maior = altura; 
+                    }if(altura > maior){ 
+                        maior = altura; 
+                    }if(menor > altura){
+                        menor = altura;
+                    }if(sexo == "f" || sexo == "F"){
+                        cMulher++;
+                        altMulher+=altura;
+                    } else {
+                        cHomem++;
+                    }
+                }
+                medMulher = altMulher/cMulher;
+                document.write("A maior altura é: ", maior,"<br/>"); 
+                document.write("A menor altura é: ", menor,"<br/>");
+                document.write("A média das mulheres é: ", medMulher,"<br/>");
+                document.write("O número de homens é: ", cHomem,"<br/>");
+                document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>");
+            }
+
+            function eTres(){
+                var A =parseInt(prompt("Digite um Número"));
+                var B =parseInt(prompt("Digite um Número"));
+                if(A === B){
+                    C = (A + B);
+                    document.write("<p>Os valores são iguais, a soma é</P><p id='green'> ", C,"</p>");
+                } else {
+                    C = (A*B);
+                    document.write("<p>Os valores são diferentes, e a multiplicação é</P><p id='red'> ", C,"</p>");
+                }
+                document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+
+            }
+
+            function eQuatro(){
+                var idade = 0;
+                var totBom = 0; 
+                var totOtm = 0;
+                var idOtm = 0; 
+                var totReg = 0;
+                var total = 0;
+                var resposta = 0;
+                var medIdOtm = 0;
+                var porBom = 0;
+                for (let index = 0; index <15; index++) {
+                    idade = parseInt(prompt("Digite a idade: "));
+                    resposta = parseInt(prompt("Digite 3 para Ótimo, 2 para Bom e 1 para Regular"));
+                    total++;
+                    switch (resposta) {
+                        case 1:
+                            totReg++;
+                            break;
+                        case 2:
+                            totBom++;
+                            break;
+                        case 3:
+                            idOtm += idade;
+                            totOtm++;
+                            break;
+                    }
+                }
+                medIdOtm = (idOtm / totOtm);
+                porBom = (totBom*100)/total;
+                document.write("<p class='red'>", totReg, "</p><p> Pessoas responderam Regular</p>");
+                document.write("<p>A média da idade das pessoas que responderam ótimo é:  <p class='green'>", medIdOtm,"</p>");
+                document.write("<p>A porcentagem das pessoas que responderam bom é:  <p class='green'>", porBom,"%</p>");
+                document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+                }
+
+            function eCinco(){
+                var parPor = 0;
+                var inputCIn = parseFloat(prompt("Digite o valor a ser parcelado"));
+                var res = parseInt(prompt("Digit o número de parcelas (3 ou 5)")) ;
+                switch (res) {
+                    case 3:
+                        parPor = inputCIn*.10;
+                        break;
+                    case 5:
+                        parPor = inputCIn*.20;
+                        break;
+                    default:
+                        alert("Entrada inválida, recarregando");
+                        document.location.reload(true);
+                        break;
+                }
+                document.write("Preço a pagar acrescido de R$: ",parPor," <br/>Total R$ ", inputCIn+parPor)
+                document.write("<br/><button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+                }
+
+            function eSeis() {
+                for (let index = 0; index < 10; index++) {
+                    var totMulher = 0;
+                    var totHomem = 0;
+                    var pesoMulher = 0;
+                    var idadeHomem =0;
+                    var sexo = prompt("Digite o sexo da pessoa n° (M/F) ", index);
+                    var idade = prompt("Digite a idade da pessoa n° ", index);
+                    var peso = prompt("Digite o peso da pessoa n°", index);
+                    if (sexo == "F" || sexo =="f") {
+                        totMulher++;
+                        pesoMulher+=peso
+                    }else{
+                        totHomem++;
+                        idadeHomem+=idade;
+                    }
+                document.write("Total de homens: ", totHomem);
+                document.write("Total de mulheres: ", totMulher);
+                document.write("Média dos pesos das mulheres: ", pesoMulher/totMulher, "kg<br/>");
+                document.write("Média Idade dos Homens: ", idadeHomem/totHomem," anos<br/>");
+                document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+
+                }
+            }
+
+
+            function eSete(){
+                document.write("A implementar");
+            }
+
+            function eOito(){
+            var num1 = parseFloat(prompt("Digite um número"));
+            var num2 = parseFloat(prompt("Digite outro númeroDigite outro número"));
+            var esc = parseInt(prompt("Digite 1 para soma 2 para mult 3 para div"));
+            var result = 0;
+                switch(esc){
+                    case 1:
+                        result = num1 + num2;
+                        document.write("A soma é ", result, "<br/>");
+                        break;
+                    case 2:
+                        result = num1 * num2;
+                        document.write("A multiplicação é: ", result,"<br/>");
+                        break;
+                    case 3:
+                        result = num1 / num2;
+                        document.write("A divisão é: ", result,"<br/>");
+                        break;
+                }
+                document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+
+            }
+
+            function eNove(){
+                var ipSal = parseFloat(prompt("Digite o salário atual do Funcionário: "));
+                var r = 0;
+                var nSal;
+                if(ipSal < 1045){
+                    r = .20
+                }else if( ipSal > 1045 ){
+                    r = .15
+                }else if(2000 > ipSal < 3000){
+                    r = .10
+                }else{
+                    r = .5
+                }
+                nSal = ipSal+(ipSal * r)
+                document.write("O reajuste será de ", (r*100),"% ou R$ ",(ipSal * r), "<br/>");
+                document.write("O novo salário do funcionário será: ", nSal,"<br/>");
+                document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+
+            }
+
+            function eDez(){
+                var num = [];
+                for (let index = 0; index < 5; index++) {
+                    num[index] = parseFloat(prompt("Digite um número para Pow"))
+                }
+                for (let index = 0; index < 5; index++) {
+                    document.write(num[index],"² = ", Math.pow(num[index],2),"<br/>")
+                }
+                document.write("<button class='btn' onclick='document.location.reload(true);' value='Retornar'>Retornar</button>")
+            }
+        </script>
+        <style>
+            body{
+                background-color: #b3ecec; 
+                font-family: Arial, sans-serif;
+                color: black;
+            }
+
+            h2{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 35pt;
+                color: #ffffff;
+                text-align: center;
+                text-shadow: 1px 3px 3px black;
+            }
+            p{
+                text-align: justify;
+            }
+
+            li{
+                text-align: justify;
+                margin-top: 2px;
+                list-style: none;
+            }
+
+            button.btn{
+                padding: 15px;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: block;
+                position: relative;
+                background-color: #0084ff;
+                color: #ffffff;
+                font-weight: bolder;
+                border-radius: 4px;
+            }
+            button.btn:hover{
+                background-color: #0300a0;
+                transition: .5s;
+            }
+
+            div.x{
+                padding: 8px;
+                position: relative;
+                width: auto;
+                height: auto;
+                background-color: #f8f8f8;
+                margin: auto min="19";
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+                word-wrap: break-word;
+            }
+            header#cont{
+                padding: 8px;
+                position: relative;
+                display: block;
+                width: auto;
+                height: auto;
+                background-color: #000000;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2px;
+                border: 10px solid black;
+                border-radius: 10px;
+                box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+                word-wrap: break-word;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:  15pt;
+                color: white;
+                text-align: justify;
+            }
+
+            code{
+                background-color: #c2c2c2;
+                position: relative;
+                display: block;
+                border: 1px solid black;
+                border-radius: 5px;
+                width: auto;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+                font-family: courier, monospace;
+                font-size: 12pt;
+                padding: 7pt;
+            }
+
+
+        </style>
+    </head>
+    </head>
+    <div>
+        <h2>Exercício 01</h2>
+        <div class="x">
+            <div id="E01">
+                <header id="cont">
+                    Crie um programa que leia 5 números e mostre o maior.<br/>
+                </header >
+                <code>
+                    var maior = prompt("Digite um número para comparar");<br/>
+                    for (let index = 0; index &lt 4; index++) {<br/>
+                        &nbsp;    input = prompt("Digite um número para comparar: ")<br/>
+                        &nbsp;    maior = input>maior? input : maior;<br/>
+                    }<br/>
+                    document.write( O maior número é" , maior);
+                </code>
+                <button class="btn" onclick="eUm();" value="Executar">Executar</button>
+            </div>
+        </div>
+        <h2>Exercício 02</h2>
+        <div class="x">
+            <div id="E02">
+                <header id="cont">
+                    Tem-se um conjunto de dados contendo a altura e o sexo (M ou F) de 15 pessoas. Faça um programa que calcule e escreva:<br/>
+                    <ul>
+                        <li>a maior e a menor altura do grupo</li>
+                        <li>a média de altura das mulheres</li>
+                        <li>o número de homens</li>
+                    </ul>
+                </header>
+                <code>
+                    var menor;
+                    var sexo;
+                    var maior;
+                    var cMulher;
+                    var cHomem;<br/>
+                    var altura;
+                    var medMulher;
+                    var altMulher;<br/>
+                    for (let index = 1; index &lt 3; index++){<br/>
+                        &nbsp;altura = parseInt(prompt("Informe a sua altura(sem ponto)"));<br/>
+                        &nbsp;sexo =prompt("Digite o sexo M/F");<br/>
+                        &nbsp;if(index=1){<br/>
+                        &nbsp;&nbsp;menor = altura;<br/>
+                        &nbsp;&nbsp;maior = altura;<br/>
+                        &nbsp;} if(altura > maior){<br/>
+                        &nbsp;&nbsp;maior = altura;<br/>
+                        &nbsp;}if(menor > altura){<br/>
+                        &nbsp;&nbsp;menor = altura;<br/>
+                        &nbsp;}if(sexo == "f" || sexo == "F"){<br/>
+                        &nbsp;&nbsp;cMulher++;<br/>
+                        &nbsp;&nbsp;altMulher+=altura;<br/>
+                        &nbsp;} else {<br/>
+                        &nbsp;&nbsp;cHomem++;<br/>
+                        &nbsp;}<br/>
+                    }<br/>
+                    mediMulher = altMulher/cMulher;<br/>
+                    document.write("A maior altura é: ", maior);<br/> 
+                    document.write("A menor altura é: ", menor);<br/>
+                    document.write("A média das mulheres é: ", medMulher);<br/>
+                    document.write("O número de homens é: ", cHomem);<br/>
+                </code>
+                <button class="btn" onclick="eDois();" value="Executar">Executar</button>
+            </div>
+        </div>
+        <h2>Exercício 03</h2>
+        <div class="x">
+                <header id="cont">
+                    Faça um algoritmo que leia dois valores inteiros A e B se os valores forem iguais devem ser somados, caso
+                    contrário multiplique A por B, ao final do cálculo ao final do cálculo atribuir o valor para uma variável C.
+                </header>
+                <code>
+                    var A =parseInt(prompt("Digite um Número"));<br/>
+                    var A =parseInt(prompt("Digite um Número"));<br/>
+                    if(A === B){<br/>
+                        &nbsp;C = (A + B);
+                        &nbsp;document.write("Os valores são iguais, a soma é ", C);<br/>
+                    } else { <br/>
+                        &nbsp;C = (A*B); <br/>
+                        &nbsp;document.write("Os valores são diferentes, e a multiplicação é", C);<br/>
+                    }
+                </code>
+                <button class="btn" onclick="eTres();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 04</h2>
+        <div class="x">
+            <header id="cont">
+                Cada espectador de um cinema respondeu a um questionário no qual constava sua idade e a sua opinião
+                em relação ao filme: <br/> ótimo - 3, bom - 2, regular -1.<br/>
+                Faça um programa que receba a idade e a opinião de 15 espectadores, calcule e imprima:<br/>
+                &nbsp;&nbsp;&nbsp;• a média das idades das pessoas que responderam ótimo;<br/>
+                &nbsp;&nbsp;&nbsp;• a quantidade de pessoas que responderam regular;<br/>
+                &nbsp;&nbsp;&nbsp;• a porcentagem de pessoas que responderam bom entre todos os espectadores analisados.
+            </header>
+            <code>
+                var idade = 0;
+                    var totBom = 0; 
+                    var totOtm = 0;
+                    var idOtm = 0; <br/>
+                    var totReg = 0;
+                    var total = 0;
+                    var resposta = 0;
+                    var medIdOtm = 0;
+                    var porBom = 0;<br/>
+                    for (let index = 0; index &lt 15; index++) {<br/>
+                        idade = parseInt(prompt("Digite a idade: "));<br/>
+                        resposta = parseInt(prompt("Digite 3 para Ótimo, 2 para Bom e 1 para Regular"));<br/>
+                        total++;<br/>
+                        switch (resposta) {<br/>
+                            case 1:<br/>
+                                totReg++;<br/>
+                                break;<br/>
+                            case 2:<br/>
+                                totBom++;<br/>
+                                break;<br/>
+                            case 3:<br/>
+                                idOtm += idade;<br/>
+                                totOtm++;<br/>
+                                break;<br/>
+                        }<br/>
+                    }<br/>
+                    medIdOtm = (idOtm / totOtm);<br/>
+                    porBom = (totBom*100)/total;<br/>
+                    document.write(totReg, " Pessoas responderam Regular");<br/>
+                    document.write("A média da idade das pessoas que responderam ótimo é: ", medIdOt);<br/>
+                    document.write("A porcentagem das pessoas que responderam bom é: ", porBom,"%");
+            </code>
+            <button class="btn" onclick="eQuatro();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 05</h2>
+        <div class="x">
+            <header id="cont">
+                A partir do preço à vista de um determinado produto, calcule o preço total a pagar e o valor da prestação mensal, referentes ao pagamento parcelado. Se o pagamento for parcelado em 3 vezes deve ser dado um acréscimo de 10% no total a ser pago. Se o parcelamento for em 5 vezes, o acréscimo será de 20%.
+            </header>
+            <code>
+                var inputCIn = parseFloat(prompt("Digite o valor a ser parcelado"));<br/>
+                var res = parseInt(prompt("Digit o número de parcelas (3 ou 5)")) ;<br/>
+                switch (res) {<br/>
+                    &nbsp;case 3:<br/>
+                        &nbsp;&nbsp; parPor = inputCIn*.10;<br/>
+                        &nbsp;&nbsp;  break;<br/>
+                        &nbsp;case 5:<br/>
+                    &nbsp;&nbsp; parPor = inputCIn*.20;<br/>
+                        &nbsp;&nbsp; break;<br/>
+                        &nbsp;default:<br/>
+                        &nbsp;&nbsp;alert("Entrada inválida, recarregando");<br/>
+                        &nbsp;&nbsp;document.location.reload(true);<br/>
+                        &nbsp;&nbsp;break;<br/>
+                }
+            </code>
+            <button class="btn" onclick="eCinco();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 06</h2>
+        <div class="x">
+            <header id="cont">
+                Faça um programa que receba a idade, o peso e o sexo de 10 pessoas. Calcule e imprima:
+                <ul>
+                    <li>Total de homens</li>
+                    <li>Total de mulheres</li>
+                    <li>Média das idades dos homens;</li>
+                    <li>média dos pesos das mulheres.</li>
+                </ul>
+            </header>
+            <code>
+                for (let index = 0; index &lt; 10; index++) {<br/>
+                 &nbsp;   var totMulher = 0;<br/>
+                 &nbsp;   var totHomem = 0;<br/>
+                 &nbsp;   var pesoMulher = 0;<br/>
+                 &nbsp;   var idadeHomem =0;<br/>
+                 &nbsp;   var sexo = prompt("Digite o sexo da pessoa n° (M/F) ", index);<br/>
+                 &nbsp;   var idade = prompt("Digite a idade da pessoa n° ", index);<br/>
+                 &nbsp;   var peso = prompt("Digite o peso da pessoa n°", index);<br/>
+                 &nbsp;   if (sexo == "F" || sexo =="f") {<br/>
+                &nbsp;       totMulher++;<br/>
+                &nbsp;       pesoMulher+=peso<br/>
+                &nbsp;    }else{<br/>
+                    &nbsp;        totHomem++;<br/>
+                    &nbsp;    idadeHomem+=idade;<br/>
+                    &nbsp;}<br/>
+                document.write("Total de homens: ", totHomem);<br/>
+                document.write("Total de mulheres: ", totMulher);<br/>
+                document.write("Média dos pesos das mulheres: ", pesoMulher/totMulher, "kg");<br/>
+                document.write("Média Idade dos Homens: ", idadeHomem/totHomem," anos");<br/>
+                }
+            </code>
+            <button class="btn" onclick="eSeis();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 07</h2>
+        <div class="x">
+            <header id="cont">
+
+            </header>
+            <code></code>
+            <button class="btn" onclick="eSete();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 08</h2>
+        <div class="x">
+            <header id="cont">
+                Escreva um algoritmo que receba dois números reais e um código de seleção do usuário. Se o código digitado for 1, faça o algoritmo adicionar os dois números previamente digitados e mostrar o resultado; se o código de seleção for 2, os números deverão ser multiplicados; se o código de seleção for 3, o primeiro número deve ser dividido pelo segundo.
+            </header>
+            <code>
+                var num1 = parseFloat(prompt("Digite um número"));<br/>
+                var num2 = parseFloat(prompt("Digite outro númeroDigite outro número"));<br/>
+                var esc = parseInt(prompt("Digite 1 para soma 2 para mult 3 para div"));<br/>
+                var result = 0;<br/>
+                 switch(esc){<br/>
+                     case 1:<br/>
+                         result = num1 + num2;<br/>
+                         document.write("A soma é ", result);<br/>
+                         break;<br/>
+                     case 2:<br/>
+                         result = num1 * num2;<br/>
+                         document.write("A multiplicação é: ", result);<br/>
+                         break;<br/>
+                     case 3:<br/>
+                         result = num1 / num2;<br/>
+                         document.write("A divisão é: ", result);<br/>
+                         break;<br/>
+                 }<br/>
+            </code>
+            <button class="btn" onclick="eOito();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 09</h2>
+        <div class="x">
+            <header id="cont">
+                Faça um programa que recebe o salário de um colaborador e calcule reajuste segundo o seguinte critério, baseado no salário atual:
+                <ul>
+                    <li>Salários até R$ 1045,00 (incluindo): aumento de 20%</li>
+                    <li>Salários entre R$ 1045,00 e R$ 2000,00: aumento de 15%</li>
+                    <li>Salários entre R$ 2000,00 e R$ 3000,00: aumento de 10%</li>
+                    <li>Salários de R$ 3000,00 em diante: aumento de 5%.</li>
+                </ul>
+                Após o aumento ser calculado, deverá ser informado: o salário antes do reajuste; o percentual de aumento aplicado; o valor do  aumento; o novo salário, após o aumento.
+            </header>
+            <code>
+                var ipSal = parseFloat(prompt("Digite o salário atual do Funcionário: "));<br/>
+                var r = 0;<br/>
+                var nSal;<br/>
+                if(ipSal < 1045){<br/>
+                    r = .20<br/>
+                }else if( ipSal > 1045 ){<br/>
+                    r = .15<br/>
+                }else if(2000 > ipSal < 3000){<br/>
+                    r = .10<br/>
+                }else{<br/>
+                    r = .5<br/>
+                }<br/>
+                nSal = ipSal+(ipSal * r)<br/>
+                document.write("O reajuste será de ", (r*100),"% ou R$ ",(ipSal * r), "<br/>");
+                document.write("O novo salário do funcionário será: ", nSal,"<br/>");
+            </code>
+            <button class="btn" onclick="eNove();" value="Executar">Executar</button>
+        </div>
+        <h2>Exercício 10</h2>
+        <div class="x">
+            <header id="cont">
+                Faça um programa que entre com cinco números e imprima o quadrado de cada número.
+            </header>
+            <code>
+                var num = [];<br/>
+                for (let index = 0; index &lt; 5; index++){<br/>
+                &nbsp;num[index] = parseFloat(prompt("Digite um número para Pow"))<br/>
+                }<br/>
+                for (let index = 0; index &lt; 5; index++){<br/>
+                &nbsp;document.write(num[index],"² = ", Math.pow(num[index],2),)<br/>
+                }<br/>
+            </code>
+            <button class="btn" onclick="eDez();" value="Executar">Executar</button>
+        </div>
+    </body>
+</html>
