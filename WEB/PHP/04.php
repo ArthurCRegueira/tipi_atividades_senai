@@ -28,7 +28,13 @@
     <body>
         <div>
             <?php
-                
+            $i =0;
+                do {
+                    # code...
+                } while ($a <= 10);
+                for ($i=0; $i < 8; $i++){ 
+                    echo "";
+                }
             ?>
         </div>
     </body>

@@ -28,8 +28,14 @@
     <body>
         <div>
             <?php
-                
+                $v = isset($_GET["tab"])?$_GET["tab"]:1;
+                $v2 = 1;
+                do{
+                    echo "<br/>$v  X  $v2  = ", $v*$v2 ;
+                    $v2++;
+                }while($v2<=10);
             ?>
+            <a href="05.php"><button>Voltar</button></a>
         </div>
     </body>
 </html>

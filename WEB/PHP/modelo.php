@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8/>
+    <meta charset="UTF-8"/>
     <title>Título</title>
         <style>
             body {
                 background-color: aqua;
                 background-position: 100%;
                 background-size: 100%;
-                background-attachment: fixed; */
                 font-family: arial, sans-serif;
             }
 

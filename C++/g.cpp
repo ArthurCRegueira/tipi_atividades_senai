@@ -11,6 +11,6 @@ int main(){
     cout << "A soma de x e y é " << x+y << endl;
     cout << "A subtração entre x e y é " << x-y << endl;
     cout << "A multiplicação entre x e y é " << x*y << endl;
-    doub
+    long double z = (y/(x+1));
     cout << "A divisão entre x e y é "<< z <<endl;
 }

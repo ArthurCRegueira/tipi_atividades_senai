@@ -27,9 +27,19 @@
     </head>
     <body>
         <div>
-            <?php
-                
-            ?>
+            <form method="$_GET" action="05-.php">
+                <label>Selecione o valor para tabuada</label>
+                <select id="tab" name="tab">
+                    <?php
+                        $v=1;
+                        do{
+                            echo "<option value='$v'>$v</option>";
+                            $v++;
+                        }while ($v<=15);
+                        ?>
+                </select>
+                <input type="submit" value="Calcular!"/>
+            </form>
         </div>
     </body>
 </html>

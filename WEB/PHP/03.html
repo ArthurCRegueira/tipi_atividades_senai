@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Título</title>
+        <style>
+            body {
+                background-color: aqua;
+                background-position: 100%;
+                background-size: 100%;
+                font-family: arial, sans-serif;
+            }
+
+            div {
+                padding: 8px;
+                position: relative;
+                width: 700px;
+                height: 500px;
+                background-color: #f8f8f8;
+                margin: 145px auto 200px auto;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+                word-wrap: break-word;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form method="GET" action="03.php">
+                <legend>Seletor estados</legend>
+                <label for="estados">Estado: </label>
+                <select name="estados" id="estados" required aria-placeholder="Selecione um">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </div>
+    </body>
+</html>
