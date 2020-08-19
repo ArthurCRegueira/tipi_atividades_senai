@@ -28,17 +28,18 @@
     <body>
         <div>
             <?php
+                
                 function soma(){
-                    
-                    $p = func_get_arg();
+                    $p = func_get_args();
                     $t = func_num_args();
                     $s = 0;
-                    for ($index = 0; i <= $t; $index++){
+                    for ($index = 0; $index <= $t; $index++){
                         $s += $p[$index];
                     }
+                    return $s;
                 }
-                soma(4,7,98,9);
-                echo $s;
+                $s= soma(498,9);
+                echo "$s";
             ?>
         </div>
     </body>

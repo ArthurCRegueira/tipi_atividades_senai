@@ -13,8 +13,11 @@
                 <h1>BI</h1>
                 <span class="navbar-text">
                     <?php 
-                        $saldo = $_GET[s];
-                        echo "<p class='saldo'>R$ $saldo</p>"
+                        $saldo = $_POST["s"];
+                        if($saldo > 0)
+                            echo "<p class='saldopos'>R$ $saldo</p>";
+                        else
+                            echo "<p class='saldoneg'>R$ $saldo</p>";
                     ?>
                 </span>
             </nav>
