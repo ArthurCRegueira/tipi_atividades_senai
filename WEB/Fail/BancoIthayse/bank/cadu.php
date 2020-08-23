@@ -1,6 +1,4 @@
-<?php
-    include "config.php"
-?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -62,13 +60,3 @@
     <script src="bootstrap.min.js"></script>
     </body>
 </html>
-<?php
-    if(@$_GET['go'] == 'cadastrar'){ 
-        $nome  = $_POST['nome'];
-        $email = $_POST['email'];
-        $senha = $_POST['senha'];
-        $cpf = $_POST['cpf'];
-            mysqli_query("insert into pessoas((`nome`, `email`, `cpf`, senha") values ('$nome', '$email', '$cpf', '$senha')");
-            echo "usuário cadastrado com sucesso!";
-    }
-?>

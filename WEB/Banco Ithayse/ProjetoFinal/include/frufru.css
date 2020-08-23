@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.carr{
+    padding: 8px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #f8f8f8;
+    margin: auto;
+    float: center;
+}
+.logo{
+    padding: 0%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25pt;
+    border-radius: 5px;
+    border: 2px solid white;
+    word-wrap: break-word;
+    margin-top: 8px;
+    margin-left: 8px;
+    float: center;
+}
+.tlogo{
+    margin-top: -5px;
+}
+.oo{
+    display: inline;
+}
