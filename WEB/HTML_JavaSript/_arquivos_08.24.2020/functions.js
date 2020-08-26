@@ -32,7 +32,7 @@
 		
 		/*Seta o nome do jogador da rodada na página HTML*/
 		setLabelJogadorAtual = function() {
-			document.getElementById('jogadorAtual').innerHTML = 'Jogador atual:  ' + jogadorAtual.nome;
+			document.getElementById('jogadorAtual').innerHTML = 'Vez de:  ' + jogadorAtual.nome + ' jogar!';
 		}
 
 		/*Verifica se o tabuleiro está completamente preenchido, se estiver, significa que ninguém venceu a rodada*/
@@ -49,11 +49,11 @@
 		allElementsInSomeLine = function() {
 			for( var i = 0; i < 7; i += 3) {
 				if ( tabuleiro[i] == 'X' && tabuleiro[i + 1] == 'X' && tabuleiro[i + 2] == 'X' ) { 
-					alert (jogador1.nome + ' wins!!!');
+					alert (jogador1.nome + ' Ganhou');
 					reset();
 				}
 				if ( tabuleiro[i] == 'O' && tabuleiro[i + 1] == 'O' && tabuleiro[i + 2] == 'O' ) {
-					alert (jogador2.nome + ' wins!!!');
+					alert (jogador2.nome + ' Ganhou');
 					reset();
 				}
 			}
@@ -63,11 +63,11 @@
 		allElementsInSomeColumn = function() {
 			for( var i = 0; i < 3; i++) {
 				if ( tabuleiro[i] == 'X' && tabuleiro[i + 3] == 'X' && tabuleiro[i + 6] == 'X' ) { 
-					alert (jogador1.nome + ' wins!!!');
+					alert (jogador1.nome + ' Ganhou');
 					reset();
 				}
 				if ( tabuleiro[i] == 'O' && tabuleiro[i + 3] == 'O' && tabuleiro[i + 6] == 'O' ) {
-					alert (jogador2.nome + ' wins!!!');
+					alert (jogador2.nome + ' Ganhou');
 					reset();
 				}
 			}
@@ -78,11 +78,11 @@
 		allElementsInSomeDiagonal = function() {
 			if ( (tabuleiro[0] == 'X' && tabuleiro[4] == 'X' && tabuleiro[8] == 'X') ||
 	 			 (tabuleiro[2] == 'X' && tabuleiro[4] == 'X' && tabuleiro[6] == 'X')) {
-					alert (jogador1.nome + ' wins!!!');
+					alert (jogador1.nome + ' Ganhou');
 				reset();
 			} else if ( (tabuleiro[0] == 'O' && tabuleiro[4] == 'O' && tabuleiro[8] == 'O') ||
 					    (tabuleiro[2] == 'O' && tabuleiro[4] == 'O' && tabuleiro[6] == 'O') ) {
-					alert (jogador2.nome + ' wins!!!');
+					alert (jogador2.nome + ' Ganhou');
 				reset();
 			} 
 		}
@@ -99,7 +99,7 @@
 					setLabelJogadorAtual();
 
 				}else{
-                    alert('Ops. Already marked value for this =/');
+                    alert('Posição ocupada ocupada');
                 }
 
 				allElementsInSomeLine();
@@ -107,7 +107,7 @@
 				allElementsInSomeDiagonal();
 	
 				if ( tabuleiroIsFilled() ) {
-					alert ('Nobody wins! :(. Try Again');
+					alert ('Deu velha!');
 					reset();
 				}
 				

@@ -1,15 +1,21 @@
 <?php
-    include 'header.php'
+    include 'header.php';
 ?>
+    <div class="login">
         <script src="./functions.js"></script>
-            <fieldset>
-                <legend> Jogadores </legend>
-                <label for="Jogador 1"> Jogador 1: </label>
-                <input type="text" id="jogador1"/>
-                <label for="Jogador 1"> Jogador 2: </label>
-                <input type="text" id="jogador2"/>
-                <input type="button" value="Iniciar" style="margin-top:4px; height:25px; width:150px; font-size:14px" onclick="javascript: initGame();"/>
-            </fieldset>
+            <div  class="form-group">
+                <h1>Jogo da Velha</h1>
+                <h2>jogadores:</h2>
+                <div class="form-group">
+                    <label for="Jogador 1"> Jogador 1: </label>
+                    <input class="form-control" type="text" id="jogador1"/>
+                </div>
+                <div class="form-group">
+                    <label for="Jogador 1"> Jogador 2: </label>
+                    <input class="form-control"type="text" id="jogador2"/>
+                </div>
+                <input type="button" value="Iniciar" class="btn btn-primary p" onclick="javascript: initGame();"/>
+            </div>
 
         <h3 id="jogadorAtual"> </h3>
         <div id="game">
@@ -31,3 +37,4 @@
                 </tr>
             </table>
         </div>
+    </div>
