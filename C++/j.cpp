@@ -16,7 +16,7 @@ int main(){
     cin >> nota4;
     double soma = nota1+nota2+nota3+nota4;
     double media = soma/4;
-    
+
     if(media > 7){
         cout << "Parabéns, você foi aprovado porque sua média foi: " << media << endl;
     }else
