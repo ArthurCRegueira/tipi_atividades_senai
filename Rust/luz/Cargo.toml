@@ -1,8 +1,8 @@
 [package]
 name = "luz"
 version = "0.1.0"
-authors = ["root"]
-edition = "2018"
+authors = ["Arthur Canido Regueira de Miranda"]
+edition = "2020"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
