@@ -1,0 +1,65 @@
+
+body{
+    background-color: #ababab;
+    text-align: center;
+}
+
+.navbar{
+    border: dashed black;
+    background-color: #ff7e8b;
+}
+.logo {
+    border: 2pt dashed black;
+    background-color: #ffe37e;
+    height: 64pt;
+    width: 64pt;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+li{
+    border: 2px dashed black;
+    background-color: #c2ffbb;
+    max-width: 120px;
+}
+#menu, li, ul{
+    display:inline-block;
+    list-style: none;
+}
+.destaques{
+    border: dashed 3px black;
+    margin-top: 5pt;
+    width: 98%;
+    height: 380px;
+    position: relative;
+    display: block;
+    background-color: #fd4b4b;
+}
+
+.game{
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 15%;
+    max-width: 120px;
+    height: 300px;
+    border: dashed 2px black;
+    background-color: #68b0be;
+}
+.coca{
+    margin-right: auto;
+    margin-left: auto;
+}
+footer{
+    border: dashed 3px black;
+    margin-top: 5pt;
+    width: 98%;
+    height: 120px;
+    position: absolute;
+    background-color: #00ff74;
+}
+.fot{
+    float: bottom;
+}
+

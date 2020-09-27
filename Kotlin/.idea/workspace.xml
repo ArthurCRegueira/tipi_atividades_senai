@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a7bf659-e3bf-457b-87de-ba4c1625d033" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Kotlin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/.idea/Rust.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/src/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/src/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/src/test.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/.rustc_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-35ad2ad2ce0ae11f/build-script-build_script_build-35ad2ad2ce0ae11f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-35ad2ad2ce0ae11f/build-script-build_script_build-35ad2ad2ce0ae11f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-35ad2ad2ce0ae11f/dep-build-script-build_script_build-35ad2ad2ce0ae11f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-35ad2ad2ce0ae11f/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-6afc73a79bae2ad6/run-build-script-build_script_build-6afc73a79bae2ad6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-6afc73a79bae2ad6/run-build-script-build_script_build-6afc73a79bae2ad6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-6b0c2116c350a9bc/dep-lib-libc-6b0c2116c350a9bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-6b0c2116c350a9bc/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-6b0c2116c350a9bc/lib-libc-6b0c2116c350a9bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/libc-6b0c2116c350a9bc/lib-libc-6b0c2116c350a9bc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/luz-74d36504577df765/bin-luz-74d36504577df765" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/luz-74d36504577df765/bin-luz-74d36504577df765.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/luz-74d36504577df765/dep-bin-luz-74d36504577df765" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/luz-74d36504577df765/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/luz-bd743ed76fad0f6e/bin-luz-bd743ed76fad0f6e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/luz-bd743ed76fad0f6e/bin-luz-bd743ed76fad0f6e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/luz-bd743ed76fad0f6e/dep-bin-luz-bd743ed76fad0f6e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/luz-bd743ed76fad0f6e/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand-18a50fe67190bb1d/dep-lib-rand-18a50fe67190bb1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand-18a50fe67190bb1d/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand-18a50fe67190bb1d/lib-rand-18a50fe67190bb1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand-18a50fe67190bb1d/lib-rand-18a50fe67190bb1d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand_core-5ebce5b4acb43d9f/dep-lib-rand_core-5ebce5b4acb43d9f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand_core-5ebce5b4acb43d9f/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand_core-5ebce5b4acb43d9f/lib-rand_core-5ebce5b4acb43d9f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand_core-5ebce5b4acb43d9f/lib-rand_core-5ebce5b4acb43d9f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand_core-fcde0129c743549f/dep-lib-rand_core-fcde0129c743549f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand_core-fcde0129c743549f/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand_core-fcde0129c743549f/lib-rand_core-fcde0129c743549f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/.fingerprint/rand_core-fcde0129c743549f/lib-rand_core-fcde0129c743549f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/build/libc-35ad2ad2ce0ae11f/build-script-build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/build/libc-35ad2ad2ce0ae11f/build_script_build-35ad2ad2ce0ae11f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/build/libc-35ad2ad2ce0ae11f/build_script_build-35ad2ad2ce0ae11f.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/build/libc-6afc73a79bae2ad6/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/build/libc-6afc73a79bae2ad6/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/build/libc-6afc73a79bae2ad6/root-output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/build/libc-6afc73a79bae2ad6/stderr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/libc-6b0c2116c350a9bc.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/liblibc-6b0c2116c350a9bc.rlib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/liblibc-6b0c2116c350a9bc.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/librand-18a50fe67190bb1d.rlib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/librand-18a50fe67190bb1d.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/librand_core-5ebce5b4acb43d9f.rlib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/librand_core-5ebce5b4acb43d9f.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/librand_core-fcde0129c743549f.rlib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/librand_core-fcde0129c743549f.rmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/luz-74d36504577df765" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/luz-74d36504577df765.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/luz-bd743ed76fad0f6e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/luz-bd743ed76fad0f6e.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/rand-18a50fe67190bb1d.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/rand_core-5ebce5b4acb43d9f.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/deps/rand_core-fcde0129c743549f.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1ca549cj0xb7yf42.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1kq8jlmqkw96kvlu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1tpespwycsipw397.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1udm59yvw29gmzpn.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1vxltxj2zp74pyl6.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/217h4q8gfy0ylz9y.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/2kcv5pfz9pq1nfhi.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/2rl6jqytkc1y3rs0.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/2she1ifx49gcalx5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/2xsnxbzdhmxh5k6c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/3coy87ijjhjl1h69.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/3m6i7104w6kgad9m.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/3ougtnuwdwcm5apq.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/42xn82cxj37ht3nt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/43518d9xp27dp55m.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/469p4c2b2eh5ih3t.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/49ttypllf492lmam.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/4uibx09n1gckioa.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/56lbnrbsca9f5h5t.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/59a5mhyz4ye542z5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/5f5qop9e8ow02qja.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/5frduimsbl1wytwg.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/5xool0b63u93v2s.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/72r8oxdyssj8hdo.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/7vciq8164c2ahya.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/bv3mfzq8xzphce9.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/e5ygpli3npjquyv.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/hrtdya8bujr6yuj.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/ls00ralqx16fuef.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/rxpezlpyk3vyfry.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/1b7c0bcj5bgfc8jr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/1ujlb00b3zxo40b3.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/21uohy9ylewcfg6q.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2b07pw8groznhijw.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2drgp3qs814gj4xm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2gzafl1pob9gewy2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2l3ar4mgs2r2ams9.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2nmh23hxtrdqaz98.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/338gpxft7e32jx5p.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/35r9806zgb2z5p78.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3dmgwk3ys6n1jkkg.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3fijsflrs83p692z.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3jjm89d0rflme1io.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3pitl73ejxrnuige.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3wv69jktdoyxsdsy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/43aj7ds0qnwmmyzp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/4asjwejgo5jzg8mx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/4bzchkhlnqfxp31m.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/4ou4pjd18779mtlk.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/4t5ut0jy4n7ukk7g.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/543n7se9to77x7ei.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/55wf4vimb2k7fmxu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/56fjy0mh4a46sp91.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/58kjat3qz3yp5j7b.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/fk9j560szjopxjk.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/iaiojc289ikukry.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/jlalkg6242c41wf.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/m1vf64m0vtuzknh.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/mgq5ur8c6zv8qpk.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/xtdwz32pqetnwg7.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/luz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.16.2020/target/debug/luz.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/.idea/_arquivos_09232020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/.rustc_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/.fingerprint/_arquivos_09232020-88a7b8ef40f0bc75/bin-_arquivos_09232020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/.fingerprint/_arquivos_09232020-88a7b8ef40f0bc75/bin-_arquivos_09232020.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/.fingerprint/_arquivos_09232020-88a7b8ef40f0bc75/dep-bin-_arquivos_09232020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/.fingerprint/_arquivos_09232020-88a7b8ef40f0bc75/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/.fingerprint/_arquivos_09232020-88a7b8ef40f0bc75/output-bin-_arquivos_09232020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/.fingerprint/_arquivos_09232020-f61cd576b3922a95/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/.fingerprint/_arquivos_09232020-f61cd576b3922a95/output-bin-_arquivos_09232020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/_arquivos_09232020.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/_arquivos_09232020.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/_arquivos_09232020.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/deps/_arquivos_09232020-f61cd576b3922a95.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/deps/_arquivos_09232020.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/deps/_arquivos_09232020.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/deps/_arquivos_09232020.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/17hjvx866wsxovko.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/194me57homezgad2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/1apkeib18h59hq3z.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/1i04g6dup2e5g5xx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/1pyou6ip2pdmnthn.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/1wccmv128vqp3eey.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/1xdp10sv86l4a0n2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/1xotueo6uu4kulqs.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/2bzn9a7jyb54jleu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/2ke4mm70nto2c758.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/2lpeyo6pl6kl7fq5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/2v8ha1rc9iv7h3in.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/2vcoyrzk9gnw6ify.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/2xplt310wtvrte6c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/2zw7xoim7uka2li5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/33qrrbkjx7nylhu5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/3kus2rncu3796qb4.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/3n71whxpbx669uvi.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/3pms9vnhjybjstgd.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/3tl4g1db586aagda.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/456vriw4uqbd2xnp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/4cjcoeywx7s8bb1x.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/4d5wlx2mf65o3lnn.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/4igbm2qx0qug6vlu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/4q3lgkbzfa9q4f66.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/4rahh876wip2mmg2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/4xpxd0n768gk8fzc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/4xtq23eqzh377haa.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/58iaoog0nshfs1uw.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/592wzslhdm0awr53.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/5d3l2qaxwvi3h4p2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/5mrkw64rlcbecjb.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/dfmyqpfs8vt92pt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/jdbypnj2i97wwp1.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/tj424bxo7h3966w.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7-1dpm02c8o6za2/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-friuqgefin-16oo4j7.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/17hjvx866wsxovko.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/194me57homezgad2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/1apkeib18h59hq3z.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/1i04g6dup2e5g5xx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/1pyou6ip2pdmnthn.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/1wccmv128vqp3eey.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/1xdp10sv86l4a0n2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/1xotueo6uu4kulqs.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/2bzn9a7jyb54jleu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/2ke4mm70nto2c758.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/2lpeyo6pl6kl7fq5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/2v8ha1rc9iv7h3in.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/2vcoyrzk9gnw6ify.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/2xplt310wtvrte6c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/2zw7xoim7uka2li5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/33qrrbkjx7nylhu5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/3kus2rncu3796qb4.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/3n71whxpbx669uvi.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/3pms9vnhjybjstgd.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/3tl4g1db586aagda.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/456vriw4uqbd2xnp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/4cjcoeywx7s8bb1x.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/4d5wlx2mf65o3lnn.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/4igbm2qx0qug6vlu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/4q3lgkbzfa9q4f66.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/4rahh876wip2mmg2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/4xpxd0n768gk8fzc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/4xtq23eqzh377haa.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/58iaoog0nshfs1uw.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/592wzslhdm0awr53.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/5d3l2qaxwvi3h4p2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/5mrkw64rlcbecjb.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/dfmyqpfs8vt92pt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/jdbypnj2i97wwp1.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/tj424bxo7h3966w.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2-working/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-3soidiozsf15d/s-frixch75il-i8uvc2.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.23.2020/target/debug/incremental/_arquivos_09232020-nxoysq9p8y90/s-friuyytxxt-1w0rht4.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/.rustc_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/.fingerprint/_arquivos_-c53371d8f9c6e2d6/bin-_arquivos_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/.fingerprint/_arquivos_-c53371d8f9c6e2d6/bin-_arquivos_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/.fingerprint/_arquivos_-c53371d8f9c6e2d6/dep-bin-_arquivos_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/.fingerprint/_arquivos_-c53371d8f9c6e2d6/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/_arquivos_.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/_arquivos_.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/_arquivos_.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/deps/_arquivos_.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/deps/_arquivos_.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/deps/_arquivos_.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/1wcznsiws6n3kmod.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/3acb0so9gx0yhzj7.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/414zhnmvsv96x70z.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/6rtbr98zc69c8c7.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/k7r07kbipgzi3p0.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/v2wevuakd10tfe9.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8-1ngv7xhp552o3/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Rust/_arquivos_09.25.2020/target/debug/incremental/_arquivos_-2fxlxtfge146c/s-friyugn569-1uh36s8.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WEB/HTML_JavaSript/_arquivos_09.23.2020/.idea/_arquivos_09.23.2020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WEB/HTML_JavaSript/_arquivos_09.23.2020/css/mainstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WEB/HTML_JavaSript/_arquivos_09.23.2020/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/src/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/src/test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/src/test.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/.rustc_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.cargo-lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-35ad2ad2ce0ae11f/build-script-build_script_build-35ad2ad2ce0ae11f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-35ad2ad2ce0ae11f/build-script-build_script_build-35ad2ad2ce0ae11f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-35ad2ad2ce0ae11f/dep-build-script-build_script_build-35ad2ad2ce0ae11f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-35ad2ad2ce0ae11f/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-6afc73a79bae2ad6/run-build-script-build_script_build-6afc73a79bae2ad6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-6afc73a79bae2ad6/run-build-script-build_script_build-6afc73a79bae2ad6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-6b0c2116c350a9bc/dep-lib-libc-6b0c2116c350a9bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-6b0c2116c350a9bc/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-6b0c2116c350a9bc/lib-libc-6b0c2116c350a9bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/libc-6b0c2116c350a9bc/lib-libc-6b0c2116c350a9bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/luz-74d36504577df765/bin-luz-74d36504577df765" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/luz-74d36504577df765/bin-luz-74d36504577df765.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/luz-74d36504577df765/dep-bin-luz-74d36504577df765" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/luz-74d36504577df765/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/luz-bd743ed76fad0f6e/bin-luz-bd743ed76fad0f6e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/luz-bd743ed76fad0f6e/bin-luz-bd743ed76fad0f6e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/luz-bd743ed76fad0f6e/dep-bin-luz-bd743ed76fad0f6e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/luz-bd743ed76fad0f6e/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand-18a50fe67190bb1d/dep-lib-rand-18a50fe67190bb1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand-18a50fe67190bb1d/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand-18a50fe67190bb1d/lib-rand-18a50fe67190bb1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand-18a50fe67190bb1d/lib-rand-18a50fe67190bb1d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand_core-5ebce5b4acb43d9f/dep-lib-rand_core-5ebce5b4acb43d9f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand_core-5ebce5b4acb43d9f/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand_core-5ebce5b4acb43d9f/lib-rand_core-5ebce5b4acb43d9f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand_core-5ebce5b4acb43d9f/lib-rand_core-5ebce5b4acb43d9f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand_core-fcde0129c743549f/dep-lib-rand_core-fcde0129c743549f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand_core-fcde0129c743549f/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand_core-fcde0129c743549f/lib-rand_core-fcde0129c743549f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/.fingerprint/rand_core-fcde0129c743549f/lib-rand_core-fcde0129c743549f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/build/libc-35ad2ad2ce0ae11f/build-script-build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/build/libc-35ad2ad2ce0ae11f/build_script_build-35ad2ad2ce0ae11f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/build/libc-35ad2ad2ce0ae11f/build_script_build-35ad2ad2ce0ae11f.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/build/libc-6afc73a79bae2ad6/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/build/libc-6afc73a79bae2ad6/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/build/libc-6afc73a79bae2ad6/root-output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/build/libc-6afc73a79bae2ad6/stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/libc-6b0c2116c350a9bc.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/liblibc-6b0c2116c350a9bc.rlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/liblibc-6b0c2116c350a9bc.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/librand-18a50fe67190bb1d.rlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/librand-18a50fe67190bb1d.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/librand_core-5ebce5b4acb43d9f.rlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/librand_core-5ebce5b4acb43d9f.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/librand_core-fcde0129c743549f.rlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/librand_core-fcde0129c743549f.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/luz-74d36504577df765" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/luz-74d36504577df765.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/luz-bd743ed76fad0f6e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/luz-bd743ed76fad0f6e.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/rand-18a50fe67190bb1d.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/rand_core-5ebce5b4acb43d9f.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/deps/rand_core-fcde0129c743549f.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1ca549cj0xb7yf42.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1kq8jlmqkw96kvlu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1tpespwycsipw397.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1udm59yvw29gmzpn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/1vxltxj2zp74pyl6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/217h4q8gfy0ylz9y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/2kcv5pfz9pq1nfhi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/2rl6jqytkc1y3rs0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/2she1ifx49gcalx5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/2xsnxbzdhmxh5k6c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/3coy87ijjhjl1h69.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/3m6i7104w6kgad9m.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/3ougtnuwdwcm5apq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/42xn82cxj37ht3nt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/43518d9xp27dp55m.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/469p4c2b2eh5ih3t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/49ttypllf492lmam.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/4uibx09n1gckioa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/56lbnrbsca9f5h5t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/59a5mhyz4ye542z5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/5f5qop9e8ow02qja.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/5frduimsbl1wytwg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/5xool0b63u93v2s.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/72r8oxdyssj8hdo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/7vciq8164c2ahya.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/bv3mfzq8xzphce9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/e5ygpli3npjquyv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/hrtdya8bujr6yuj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/ls00ralqx16fuef.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/rxpezlpyk3vyfry.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h-8uc1jirsgpvb/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-1ncv7aa0zb3wl/s-fr1epket0n-sck4h.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/1b7c0bcj5bgfc8jr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/1ujlb00b3zxo40b3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/21uohy9ylewcfg6q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2b07pw8groznhijw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2drgp3qs814gj4xm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2gzafl1pob9gewy2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2l3ar4mgs2r2ams9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/2nmh23hxtrdqaz98.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/338gpxft7e32jx5p.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/35r9806zgb2z5p78.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3dmgwk3ys6n1jkkg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3fijsflrs83p692z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3jjm89d0rflme1io.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3pitl73ejxrnuige.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/3wv69jktdoyxsdsy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/43aj7ds0qnwmmyzp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/4asjwejgo5jzg8mx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/4bzchkhlnqfxp31m.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/4ou4pjd18779mtlk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/4t5ut0jy4n7ukk7g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/543n7se9to77x7ei.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/55wf4vimb2k7fmxu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/56fjy0mh4a46sp91.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/58kjat3qz3yp5j7b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/fk9j560szjopxjk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/iaiojc289ikukry.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/jlalkg6242c41wf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/m1vf64m0vtuzknh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/mgq5ur8c6zv8qpk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2-3iyu6gu358zem/xtdwz32pqetnwg7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/incremental/luz-22ku734442i8m/s-fr1d4qmu2o-13xzbt2.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/luz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Rust/luz/target/debug/luz.d" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1i14kEuB4UlIJiuo4aoBuTu83NZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a7bf659-e3bf-457b-87de-ba4c1625d033" name="Default Changelist" comment="" />
+      <created>1601061906699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601061906699</updated>
+      <workItem from="1601061909121" duration="354000" />
+      <workItem from="1601064157775" duration="869000" />
+      <workItem from="1601067505604" duration="165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="150" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601067335110">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="150" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1601067335110" />
+    <state x="447" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601064767334">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="447" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1601064767334" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1601067669588">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601067669588" />
+    <state x="184" y="14" key="SettingsEditor" timestamp="1601064907344">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601064907344" />
+    <state x="274" y="0" width="833" height="738" key="new project wizard" timestamp="1601067685821">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="274" y="0" width="833" height="738" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1601067685821" />
+  </component>
+</project>
